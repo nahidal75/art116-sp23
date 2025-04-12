@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ayah's Henna Haven</title>
+    <link rel="stylesheet" href="styles2.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=MonteCarlo&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Ayah's Henna Haven</h1>
+        <img src="henna1.jpg" alt="Beautiful henna artwork banner" class="header-image">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#find-us">Find Us</a></li>
+                <li><a href="#designs">Designs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p><strong>Ayah’s Henna Haven</strong> is a boutique henna service in Richmond, VA that creates beautiful, intricate designs for every occasion. 
+        Specializing in traditional and modern styles, Ayah crafts each design to match your vision. 
+        Using only natural, high-quality henna, Ayah’s Henna Haven ensures stunning, safe results for all skin types.</p>
+    </section>
+
+    <!-- Henna Designs Section -->
+    <section id="designs">
+        <h2>Our Henna Designs</h2>
+        <div class="design-gallery">
+            <img src="henna1.jpg" alt="Intricate floral henna design on hand">
+            <img src="henna2.jpg" alt="Elegant bridal henna artwork">
+            <img src="henna3.jpg" alt="Henna mandala design on palm">
+        </div>
+    </section>
+
+    <!-- Find Us Section -->
+    <section id="find-us">
+        <h2>Find Us</h2>
+        <div class="find-us-container">
+            <p><strong>Email:</strong> <a href="mailto:Ayahshennahaven@gmail.com">Ayahshennahaven@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+18047358590">804-735-8590</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/ayahshennahaven_" target="_blank">@ayahshennahaven_</a></p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section (with Submit Button) -->
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+</body>
+</html>
